@@ -31,6 +31,11 @@ El objetivo de este taller es aplicar los conocimientos adquiridos en el curso d
 - `spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect`
 - `spring.jpa.hibernate.ddl-auto=update`
 
+### curls para probar:
+`curl <IP_SERVICIO_A>:<PUERTO>/hello`
+`curl -d Test_String <IP_SERVICIO_A>:<PUERTO>/save_greeting`
+(revisar los logs de las apps para comprobar que no haya errores después de correrlos)
+
 ## Tareas a Realizar:
 
 1. **Creación del Cluster de Kubernetes**:
